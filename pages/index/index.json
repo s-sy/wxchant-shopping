@@ -1,5 +1,12 @@
 {
   "usingComponents":{
-    
+      "van-tabbar": "/miniprogram_npm/vant-weapp/tabbar/index",
+      "van-tabbar-item": "/miniprogram_npm/vant-weapp/tabbar-item/index",
+      "van-icon": "/miniprogram_npm/vant-weapp/icon/index",
+      "home":"../home/home/home",
+      "classify": "../home/classify/classify",
+      "shopping": "../home/shopping/shopping",
+      "myself": "../home/myself/myself"
+
 }
 }

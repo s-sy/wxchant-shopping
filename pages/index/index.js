@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    active:"home",
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
@@ -49,6 +50,12 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  onChange(event) {
+    console.log(event.detail);
+    this.setData({
+      active:event.detail
     })
   }
 })
